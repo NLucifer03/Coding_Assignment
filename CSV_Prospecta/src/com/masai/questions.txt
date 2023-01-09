@@ -1,0 +1,29 @@
+1. How will you tackle the challenge above?
+=========================================
+To tackle This challenge I followed the following steps :---
+
+-- firstly inside the main method, I create one object of bufferedReader by supplying reader object and named it reader.
+-- from reader i read given line and convert it into array by spliting from comma
+-- insert every element of array in array.
+-- substring before ":" treader as key and after double column treated as value
+-- now get the set of keys from the map and iterate through it
+-- now checking that if value length is more then 1 then it is formula and need to solve it otherwise continue.
+
+
+
+2. What type of errors you would you check for?
+===========================================
+-- i checked for that file name is correct.
+-- use loops to take key and values because it might possible that column name will "A456" so if i took only two as given in example then it
+will cause error.
+-- make sure that  arithmatic operator is appropriate and we solve formula accordingly
+-- while reading the file need to make sure that we get all values.
+
+
+
+3. How might a user break your code?
+==================================
+-- if file name is wrong or path is wrong the we might get the fileNotfoudn Exception.
+-- I haven't provided such cases if there is a formula in which we are multiplying or dividing or minus. we need  to create cases
+in switch and call appropriate methods.
+-- if someone add number more then 9 in formula like "A5+100" then we might get error
