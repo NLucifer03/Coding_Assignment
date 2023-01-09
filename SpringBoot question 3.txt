@@ -1,0 +1,22 @@
+3) Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure 
+and reliable?
+
+
+To ensure that api is sucure and reliable we need to follow following steps :-->
+
+1. Create different - 2 packages for model, service, reposiotry and controller to maintain the code.
+
+2. we need to handle all the appropriate Exceptions and throw the custom Exception where it is required which makes
+API strong and secure.
+
+3. we can use Hateoas(Hypermedia as the Engine of Application State ) in our API which makes our API reliable.
+
+4. Authenticate and autherize the user.
+
+5. use Validation so that user can sent only valid request.
+
+6 Monitoring the API by using Actuator which monitor health of API.
+
+7. use appropriate HTTP methods like GET, POST, PUT, DELETE  for intended action.
+
+
